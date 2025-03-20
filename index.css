@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9E300; /* Yellow background */
+}
+
+.container {
+    position: relative;
+    background-color: #F9E300; /* Light gray */
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auto-rickshaw {
+    width:fit-content; /* Adjust size as needed */
+}
+
+.location-icon {
+    position: absolute;
+    bottom: 15px; /* You can adjust this */
+    right: 20px;  /* You can adjust this */
+    font-size: 24px;
+}
+
+.next-btn {
+    background-color: #29cc3a; /* Submit Button Color */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.next-btn:hover {
+    background-color: #e55;
+}
